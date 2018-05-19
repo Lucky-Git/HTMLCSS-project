@@ -1,0 +1,53 @@
+/*banner广告样式*/
+    ul{
+	  list-style:none;
+	  margin:0;
+	  padding:0;
+	}
+	#banner{
+	  width:960px;
+	  height:380px;
+      overflow:hidden;
+	  margin:0 auto;
+	  position:relative;
+	}
+	#banner img{
+	  width:960px;
+	}
+	#banner ul.banner-img li{
+	  float:left;
+	}
+    /*左右箭头*/
+    #banner a.ck-side{
+	  width:35px;
+	  height:70px;
+	  border-radius:5px;
+	  background:#ddd;
+	  position:absolute;
+	  top:155px;
+	}
+	#banner a.ck-left{
+	   background:#ddd url(../img/index/arrow-left.png) no-repeat center center;
+	   left:5px;
+	}
+	#banner a.ck-right{
+	  background:#ddd url(../img/index/arrow-right.png) no-repeat center center;
+	  right:5px;
+	}
+    /*导航指示器*/
+	#banner ul.ind{
+	  position:absolute;
+	  bottom:20px;
+	  left:455px;
+	}
+	#banner ul.ind li{
+	  float:left;
+	  width:10px;
+	  height:10px;
+	  background:#fff;
+	  border-radius:50%;
+	  margin-right:8px;
+	}
+	#banner ul.ind li.active{
+	  background:#0aa1ed;
+	}
